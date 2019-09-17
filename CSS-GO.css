@@ -1,22 +1,33 @@
 #DV1 {
-  width: 30%; 
- 
-  background: #4d5f8d; 
-  margin: 0% 0% 0% 5%
-  padding: 10px;
+width: 30%; 
+background: #4d5f8d; 
+overflow-y: scroll;
+overflow-x: hidden;
+left: 0;
+right: 70%;
+top: 0;
+bottom: 0;
+position: fixed;
+z-index: 1;
   
 
   }
  #DV2 {
   width: 70%;
-  
-  background: #CED8F6; 
-  margin: 0% 5% 0% 0%
+  margin-left: 30%;
   padding: 10px;
+  background: white; 
+  top: 0;
 
 
+			
 
   } 
+  #foto{
+	
+
+  }
+
   
   #sub{
 	  
@@ -31,7 +42,7 @@ width: 70%;
 margin-right: 30%;	
   }
 
-h1{
+h3{
 
 color: white; 
 font-family:Arial;
@@ -51,7 +62,7 @@ color: #4d5f8d;
 
 font-size:20px;	 
 font-family:Arial;
-color: gray; 
+color: black; 
 	 
  }
   
@@ -61,34 +72,34 @@ color: gray;
     justify-content: center;
     flex-wrap: wrap;
   }
-  
+
   .indice {
-border:1px solid #25692A;
-border-radius:4px;
-display:inline-block;
-cursor:pointer;
+	color: #fff;
+	padding: 8px 16px;
+	float: left;
+	position: relative;
+	text-decoration:none;
+	width: 100%;
+	height:20px;
+	border: none;
+	display: block;
+	outline: 0;
+
 font-family:Arial;
 font-weight:bold;
 font-size:13px;
-padding:6px 10px;
-text-decoration:none;
-margin:10px 0 10px 10px;
-width:90px;
-
+padding:6px 10px; 
 } 
 
 
-.indice {
-border-color:#46a7f5;
-background:linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
-box-shadow:inset 0px 1px 0px 0px #d7ecfd;
-color:#fff;
-text-shadow:0px 1px 0px #528009;  
-}
+
+
 
 
 .indice:hover {
-background:linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+background:#1E90FF;
 }
+  
+  
   
   
